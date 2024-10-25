@@ -17,5 +17,5 @@ This website replicates the visual layout and interaction of the NTNU login page
 - JavaScript webhooks to capture user credentials
 - **Logging Mechanism**: Captures submitted credentials (for CTF scoring and analysis purposes only)
 
-##🙏 Credits
+## 🙏 Credits
 Special thanks to Kjetil Indrehus (GitHub: [KjetilIN](https://github.com/KjetilIN)) for the original codebase. I’ve added a few improvements for enhanced realism and functionality.
